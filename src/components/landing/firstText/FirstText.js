@@ -19,14 +19,14 @@ function FirstText(props) {
                         Owners who manage through Arrived drive higher top lines.
                 </h1>
                     <div className='ft-body-text-container'>
-                        <p>
+                        <p className='ft-text-one'>
                             Even in big cities, over 75% of our listings appear within the first two pages of Airbnb.
                     </p>
-                        <p>
+                        <p className='ft-text-two'>
                             We do this by using proprietary pricing and SEO score strategies to increase your property's visibility, which helps you beat the market, while maintaining dynamic pricing.
                     </p>
 
-                        <p>
+                        <p className='ft-text-3'>
                             Our partners report observing a 25-50% increase in booking volume within the first two weeks through our proprietary market-matching software.
                     </p>
                     </div>

@@ -1,12 +1,12 @@
 @import "../../../utilities/scss/style.scss";
 
-.first-text-body {
+.second-text-body {
 	width: 100%;
 	height: 100vh;
 	@include flexRow;
 }
 
-.house-pic-container {
+.living-room-pic-container {
 	width: 50%;
 	height: 100%;
 	align-items: center;
@@ -14,7 +14,7 @@
 	justify-content: center;
 }
 
-.house-pic {
+.living-room-pic {
 	width: 90%;
 	height: 85%;
 }

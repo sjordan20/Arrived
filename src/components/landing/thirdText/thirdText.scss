@@ -1,20 +1,20 @@
 @import "../../../utilities/scss/style.scss";
 
-.first-text-body {
+.third-text-body {
 	width: 100%;
-	height: 100vh;
+	height: 60vh;
 	@include flexRow;
 }
 
-.house-pic-container {
-	width: 50%;
+.toast-pic-container {
+	width: 55%;
 	height: 100%;
 	align-items: center;
 	display: flex;
 	justify-content: center;
 }
 
-.house-pic {
+.toast-pic {
 	width: 90%;
 	height: 85%;
 }
