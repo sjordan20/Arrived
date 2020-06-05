@@ -1,9 +1,13 @@
 import React from 'react';
 
+import ReactPlayer from "react-player"
+
+
 function ArrivedVideo(props) {
     return (
-        <div>
-            Arrived
+        <div className='body'>
+            arrived video
+
         </div>
     );
 }
