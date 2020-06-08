@@ -4,7 +4,25 @@
 	background-color: #000000;
 }
 
+.logo-container {
+	width: 500px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin-left: 130px;
+}
 .logo {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
+}
+
+.arrived-header {
+	width: 400px;
+	height: 100%;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	font-size: 80px;
 }

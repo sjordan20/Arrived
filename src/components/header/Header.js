@@ -5,13 +5,16 @@ import logo from '../../utilities/assets/Logo_Symbol_White_PNG.png'
 
 function Header(props) {
     return (
-        <section>
+        <div className='header'>
             <div className='header-body'>
-                <img className='logo' src={logo} />
-                Header
+                <div className='logo-container'>
+
+                    <img className='logo' src={logo} />
+                    <h1 className='arrived-header'>ARRIVED</h1>
+                </div>
             </div>
 
-        </section>
+        </div>
     );
 }
 
