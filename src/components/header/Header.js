@@ -10,7 +10,11 @@ function Header(props) {
                 <div className='logo-container'>
 
                     <img className='logo' src={logo} />
-                    <h1 className='arrived-header'>ARRIVED</h1>
+                    <h1 className='arrived-header-container'>
+                        <p className='arrived'>
+                            ARRIVED
+                    </p>
+                    </h1>
                 </div>
             </div>
 

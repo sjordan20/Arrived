@@ -1,1 +1,19 @@
-$header-font: "freight big book";
+
+
+@font-face{
+    font-family:'freight Big Book';
+    src:local('Freight Big Book'),
+    url('../fonts/Freight-Big-Book.otf') format('truetype')
+}
+
+@font-face{
+    font-family:'Basis Grotesque Pro-Regular';
+    src:local('Basis Grotesque Pro-Regular'),
+    url('../fonts/BasisGrotesquePro-Regular.ttf') format('truetype')
+}
+
+@font-face{
+    font-family:'GeoSans Light';
+    src:local('GeoSans Light'),
+    url('../fonts/GeosansLight.ttf') format('truetype')
+}
