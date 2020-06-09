@@ -14,7 +14,6 @@
 	justify-content: center;
 	flex-direction: row;
 	margin-left: 150px;
-	
 }
 .logo {
 	width: 120px;
@@ -26,14 +25,16 @@
 	height: 100%;
 	display: flex;
 	align-items: center;
-
-	
 }
 
-.arrived{
+.arrived {
+	width: 350px;
+	height: 200px;
 	color: #ffffff;
 	font-size: 70px;
-	font-family: 'GeoSans Light';
+	font-family: $header-bar;
 	letter-spacing: 15px;
-	font-weight:700;
+	font-weight: 700;
+	position: relative;
+	top: 69px;
 }
