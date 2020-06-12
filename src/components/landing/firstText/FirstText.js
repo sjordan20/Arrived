@@ -26,7 +26,7 @@ function FirstText(props) {
                             We do this by using proprietary pricing and SEO score strategies to increase your property's visibility, which helps you beat the market, while maintaining dynamic pricing.
                     </p>
 
-                        <p className='ft-text-3'>
+                        <p className='ft-text-three'>
                             Our partners report observing a 25-50% increase in booking volume within the first two weeks through our proprietary market-matching software.
                     </p>
                     </div>
