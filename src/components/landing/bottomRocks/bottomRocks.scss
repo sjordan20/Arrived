@@ -1,0 +1,101 @@
+@import "../../../utilities/scss/style.scss";
+
+.bottom-rocks-body {
+	width: 100%;
+	height: 50vh;
+	position: relative;
+}
+
+.red-rocks-pic {
+	width: 100%;
+	height: 50vh;
+}
+
+.lighten-red-rocks {
+	width: 100%;
+	height: 50vh;
+	position: absolute;
+	top: 0;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.bottom-rocks-container {
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: absolute;
+	top: 0;
+}
+
+.umbrella-container {
+	width: 350px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.umbrella-pic {
+	width: 150px;
+	height: 150px;
+}
+
+.umbrella-text {
+	width: 260px;
+	height: 200px;
+	padding-top: 40px;
+	font-family: $body-text;
+	text-align: center;
+	font-size: 25px;
+	line-height: 33px;
+}
+
+.tools-container {
+	width: 350px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.tools-pic {
+	width: 150px;
+	height: 150px;
+}
+
+.tools-text {
+	width: 300px;
+	height: 200px;
+	padding-top: 40px;
+	font-family: $body-text;
+	text-align: center;
+	font-size: 25px;
+	line-height: 33px;
+}
+
+.taxes-container {
+	width: 350px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.taxes-pic {
+	width: 150px;
+	height: 150px;
+}
+
+.taxes-text {
+	width: 400px;
+	height: 200px;
+	padding-top: 40px;
+	font-family: $body-text;
+	text-align: center;
+	font-size: 25px;
+	line-height: 33px;
+}

@@ -3,6 +3,7 @@ import ArrivedVideo from '../components/landing/arrivedVideo/ArrivedVideo';
 import FirstText from '../components/landing/firstText/FirstText';
 import SecondText from '../components/landing/secondText/SecondText';
 import ThirdText from '../components/landing/thirdText/ThirdText';
+import BottomRocks from '../components/landing/bottomRocks/BottomRocks';
 
 function Landing(props) {
     return (
@@ -11,6 +12,7 @@ function Landing(props) {
             <FirstText />
             <SecondText />
             <ThirdText />
+            <BottomRocks />
         </div>
     );
 }
