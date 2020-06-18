@@ -22,6 +22,11 @@
 		url("../fonts/Proxima-Nova-Alt-Rg-Regular.ttf") format("truetype");
 }
 
+@font-face {
+	font-family: "lora";
+	src: local("lora"), url("../fonts//Lora-Regular.ttf") format("truetype");
+}
+
 // fonts
 $header-bar: "GeoSans Light";
 $headers: "Freight Big Book";

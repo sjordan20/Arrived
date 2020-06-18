@@ -1,0 +1,115 @@
+@import "../../../utilities/scss/style.scss";
+
+.form-body {
+	width: 100%;
+	height: 80vh;
+}
+
+.form-header-container {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: $headers;
+	font-size: 35px;
+}
+
+.line-one {
+	width: 100%;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+}
+
+.line-two {
+	width: 100%;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+}
+.line-three {
+	width: 100%;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+}
+
+.three-five {
+	font-family: "lora";
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.input-container {
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-inputs {
+	width: 500px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input-header {
+	width: 350px;
+	height: 40px;
+	font-family: $headers;
+	font-size: 25px;
+}
+
+.name-phone-number-input {
+	width: 150px;
+	height: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #ededed;
+	border: 0;
+}
+
+.email-input {
+	width: 315px;
+	height: 20px;
+	background-color: #ededed;
+	border: 0;
+}
+
+.bottom-inputs {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+}
+
+.arbnb-url {
+	width: 315px;
+	height: 20px;
+	background-color: #ededed;
+	border: 0;
+}
+
+.home-details-inputs {
+	display: flex;
+	flex-direction: row;
+}
+.left-inputs {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.right-inputs {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+}
