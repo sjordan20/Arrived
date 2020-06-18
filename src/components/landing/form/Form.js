@@ -62,23 +62,28 @@ function Form(props) {
                         </p>
                 </div>
                 <div className='input-container'>
-                    <form>
+                    <form className='form'>
 
                         <div className='top-inputs'>
                             <p className='input-header'>
                                 Find out how much you could earn
                     </p>
-                            <div className='name-phone-number'>
+                            <div className='name-phone-number-container'>
+                                <div className='name-input-container'>
+                                    <input placeholder='Name'
+                                        className='name-phone-number-input'
+                                    />
 
-                                <input placeholder='Name'
-                                    className='name-phone-number-input'
+                                </div>
+                                <div>
+                                    <input
+                                        placeholder='Phone Number'
+                                        type='tel'
+                                        className='name-phone-number-input'
+                                    />
 
-                                />
-                                <input
-                                    placeholder='Phone Number'
-                                    type='tel'
-                                    className='name-phone-number-input'
-                                />
+                                </div>
+
                             </div>
 
                             <input
@@ -90,25 +95,28 @@ function Form(props) {
                         </div>
 
                         <div className='bottom-inputs'>
-                            <input
-                                placeholder='Your Arbnb/VRBO URL'
-                                className='arbnb-url'
-                            />
+                            <div className='arbnb-input'>
 
-                            <p>
+                                <input
+                                    placeholder='Your Arbnb/VRBO URL'
+                                    className='arbnb-url'
+                                />
+                            </div>
+
+                            <p className='or'>
                                 Or
                         </p>
                             <div className='home-details-inputs'>
                                 <div className='left-inputs'>
-                                    <input placeholder='Bedroom #' />
-                                    <input placeholder='Bathroom #' />
-                                    <input placeholder='Sq Ft' />
+                                    <input className='details-inputs' placeholder='Bedroom #' />
+                                    <input className='details-inputs' placeholder='Bathroom #' />
+                                    <input className='details-inputs' placeholder='Sq Ft' />
 
                                 </div>
                                 <div className='right-inputs'>
-                                    <input placeholder='Year Built' />
-                                    <input placeholder='City' />
-                                    <input placeholder='Zip Code' />
+                                    <input className='details-inputs' placeholder='Year Built' />
+                                    <input className='details-inputs' placeholder='City' />
+                                    <input className='details-inputs' placeholder='Zip Code' />
 
                                 </div>
 
